@@ -1,3 +1,3 @@
 [submodule "yosys"]
 	path = yosys
-	url = https://github.com/cliffordwolf/yosys.git
+	url = https://github.com/leskraas/yosys.git
