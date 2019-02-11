@@ -1,3 +1,6 @@
 [submodule "yosys"]
 	path = yosys
 	url = https://github.com/leskraas/yosys.git
+[submodule "netlistsvg"]
+	path = netlistsvg
+	url = https://github.com/leskraas/netlistsvg.git
