@@ -8,7 +8,7 @@ import (
 )
 
 func executeYosys(path string) {
-	app := "./yosys"
+	app := "yosys/yosys"
 	// app := "cat"
 	// arg0 := []string{"-p", "\"prep -auto-top; aigmap; write_json larstestOutAigmap.json\"", path}
 	arg0 := []string{"-p", "prep -auto-top; aigmap; write_json larstestOutAigmap.json", path}
@@ -67,7 +67,7 @@ func displaySvg() {
 
 func main() {
 	fmt.Println("Running")
-	executeYosys("/yosys/tests/simple/larserik/counter.v")
+	executeYosys("yosys/tests/simple/larserik/counter.v")
 	executeNetlistsvg()
 	displaySvg()
 
